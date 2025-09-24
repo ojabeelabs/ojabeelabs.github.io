@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OjabeeLabs</title>
+  <meta name="description" content="Leben In Deutschland – Test Prep by OjabeeLabs" />
+  <link rel="icon" href="data:,">
+  <style>
+    :root { --fg:#111; --muted:#555; --bg:#fff; --card:#f7f7f9; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, Noto Sans, "Apple Color Emoji","Segoe UI Emoji"; color:var(--fg); background:var(--bg);}
+    header { padding:48px 20px 20px; text-align:center; }
+    .brand { font-size:28px; font-weight:700; letter-spacing:.3px; }
+    .tagline { color:var(--muted); margin-top:8px; }
+    .wrap { max-width:960px; margin:0 auto; padding:20px; }
+    .card { background:var(--card); border-radius:16px; padding:24px; margin:16px 0; }
+    a.button { display:inline-block; padding:12px 16px; border-radius:12px; text-decoration:none; border:1px solid #ddd; }
+    .grid { display:grid; gap:16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    footer { text-align:center; color:var(--muted); padding:24px 0 48px; }
+    .small { font-size:14px; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">OjabeeLabs</div>
+    <div class="tagline">Apps that make learning in Germany easier</div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Leben In Deutschland – Test Prep</h2>
+      <p>Prepare for the “Leben in Deutschland” exam with practice mode, explanations, and a clean UI.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>iOS</h3>
+          <p class="small">Available on the App Store.</p>
+          <!-- Replace # with your real App Store URL when ready -->
+          <a class="button" href="#" rel="nofollow">View on App Store</a>
+        </div>
+        <div class="card">
+          <h3>Android</h3>
+          <p class="small">Available on Google Play.</p>
+          <!-- Replace # with your real Play Store URL when ready -->
+          <a class="button" href="#" rel="nofollow">View on Google Play</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Legal & Support</h2>
+      <p>
+        <a class="button" href="https://ojabeelabs.github.io/lebeninde/privacy.html">Privacy Policy</a>
+        <a class="button" href="mailto:support@ojabeelabs.com">Email Support</a>
+      </p>
+      <p class="small">Ads are served in the free version. PRO removes ads.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="small">© <span id="y"></span> OjabeeLabs</div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
